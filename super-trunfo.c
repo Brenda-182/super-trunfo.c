@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(){
 
     //Atribuindo valores de variáveis
@@ -34,19 +35,20 @@ int main(){
     printf("População: %d\n", populacao1);
     printf("Área: %.2f Km²\n", area1);
     printf("Pib: %.2f bilhões de reais\n", pib1);
-    printf("Pontos Túristicos: %d\n", pontosTuristicos1);
+    printf("Número de Pontos Túristicos: %d\n", pontosTuristicos1);
     printf("Densidade Populacional: %.2f hab/Km² \n", densidadePopulacional1);
-    printf("PIB Per Capita: %.6f reais \n", pibPerCapita1);
+    printf("PIB Per Capita: %.2f reais \n", pibPerCapita1);
+    printf("\n");
     
      //Acrescentando as strings Carta2
      printf("Carta 2:\n");
-    printf("Estdo: %c\n", estado2);
+    printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", nomeCidade2);
     printf("População: %d\n", populacao2);
     printf("Área: %.2f Km²\n", area2);
     printf("Pib: %.2f bilhões de reais\n", pib2);
-    printf("Pontos Túristicos: %d\n", pontosTuristicos2);
+    printf("Número de Pontos Túristicos: %d\n", pontosTuristicos2);
 printf("Densidade Populacional: %.2f hab/Km² \n", densidadePopulacional2);
         printf("PIB Per Capita: %.2f reais \n", pibPerCapita2);
 
