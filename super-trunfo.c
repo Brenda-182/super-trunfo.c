@@ -2,13 +2,13 @@ int main(){
 
     //Atribuindo valores de variáveis
     //Carta 1
-    char estado = 'A';
-    char codigo[4] = "A01";
-    char nomeCidade[20] = "São Paulo";
-    int populacao = 12325000
-    float area = 1521.11
-    float pib = 699.28
-    int pontosTuristicos = 50
+    char estado1 = 'A';
+    char codigo1[4] = "A01";
+    char nomeCidade1[20] = "São Paulo";
+    int populacao1 = 12325000
+    float area1 = 1521.11
+    float pib1 = 699.28
+    int pontosTuristicos1 = 50
 
     //Atribuindo valores as váriaveis
     //Carta 2
@@ -39,4 +39,5 @@ int main(){
     printf("Área: %f.2 Km²\n", area2);
     printf("Pib: %f.2 bilhões de reais\n", pib2);
     printf("Pontos Túristicos: %d\n", pontosTuristicos2);
+    return 0;
 }
